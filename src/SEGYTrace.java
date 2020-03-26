@@ -316,7 +316,7 @@ public class SEGYTrace {
     {
         String out = "Index Value";
         for(int i=0;i<result.length;i++)
-            out+= "\n" + i + " " + result[i];
+            out+= "\n" + i+1 + " " + result[i];
         return out;
     }
 }
